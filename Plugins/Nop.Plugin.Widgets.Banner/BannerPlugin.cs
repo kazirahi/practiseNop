@@ -134,35 +134,45 @@ namespace Nop.Plugin.Widgets.Banner
             await _localizationService.AddOrUpdateLocaleResourceAsync(new Dictionary<string, string>
             {
                 ["Plugins.Widgets.Banner.Configuration"] = "Configuration",
+                ["Plugins.Widgets.Banner.BannerConfiguration"] = "Banner - Configuration",
                 ["Plugins.Widgets.Banner.BannerConfigure"] = "Configure",
                 ["Plugins.Widgets.Banner.BannerList"] = "Banner List",
+                ["Plugins.Widgets.Banner.StoreId"] = "Store ID",
+                ["Plugins.Widgets.Banner.DisplayOrder"] = "Display Order",
+                ["Plugins.Widgets.Banner.Published"] = "Published",
 
                 ["Plugins.Widgets.Banner.Configure.HeaderName"] = "Header Name",
                 ["Plugins.Widgets.Banner.Configure.BannerWidth"] = "Banner Width",
                 ["Plugins.Widgets.Banner.Configure.BannerHeight"] = "Banner Height",
+                ["Plugins.Widgets.Banner.Configure.BannerListPageSize"] = "Banner List Page Size",
 
                 ["Plugins.Widgets.Banner.Configure.Hint.HeaderName"] = "Please Enter the Header Name",
                 ["Plugins.Widgets.Banner.Configure.Hint.BannerWidth"] = "Please Enter the Banner Width (in px)",
                 ["Plugins.Widgets.Banner.Configure.Hint.BannerHeight"] = "Please Enter the Banner Height (in px)",
+                ["Plugins.Widgets.Banner.Configure.Hint.BannerListPageSize"] = "Please Enter the Banner List Page Size",
 
                 ["Plugins.Widgets.Banner.Configure.Required.HeaderName"] = "Header Name is required***",
                 ["Plugins.Widgets.Banner.Configure.Required.BannerWidth"] = "Banner Width is required***",
                 ["Plugins.Widgets.Banner.Configure.Required.BannerHeight"] = "Banner Height is required***",
+                ["Plugins.Widgets.Banner.Configure.Required.BannerListPageSize"] = "Banner List Page Size is required***",
 
                 ["Plugins.Widgets.Banner.Field.Image"] = "Image",
                 ["Plugins.Widgets.Banner.Field.BannerName"] = "Banner Name",
                 ["Plugins.Widgets.Banner.Field.BannerDescription"] = "Banner Description",
                 ["Plugins.Widgets.Banner.Field.Link"] = "Link",
+                ["Plugins.Widgets.Banner.Field.LinkName"] = "Link Name",
 
                 ["Plugins.Widgets.Banner.Field.Hint.Image"] = "Please Enter the Image",
                 ["Plugins.Widgets.Banner.Field.Hint.BannerName"] = "Please Enter the BannerName",
                 ["Plugins.Widgets.Banner.Field.Hint.BannerDescription"] = "Please Enter the BannerDescription",
                 ["Plugins.Widgets.Banner.Field.Hint.Link"] = "Please Enter the Link",
+                ["Plugins.Widgets.Banner.Field.Hint.LinkName"] = "Please Enter the Link Name",
 
                 ["Plugins.Widgets.Banner.Field.Requierd.Image"] = "Image is required***",
                 ["Plugins.Widgets.Banner.Field.Requierd.BannerName"] = "BannerName is required***",
                 ["Plugins.Widgets.Banner.Field.Requierd.BannerDescription"] = "BannerDescription is required***",
                 ["Plugins.Widgets.Banner.Field.Requierd.Link"] = "Link is required***",
+                ["Plugins.Widgets.Banner.Field.Requierd.LinkName"] = "Link Name is required***",
 
 
             });
