@@ -13573,11 +13573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\nopCommerce_4.50.1_Source\\Plugins\\Nop.Plugin.Shipping.EasyPost\\Nop.Plugin.Shipping.EasyPost.csproj",
+      "projectUniqueName": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.Shipping.EasyPost\\Nop.Plugin.Shipping.EasyPost.csproj",
       "projectName": "Nop.Plugin.Shipping.EasyPost",
-      "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Plugins\\Nop.Plugin.Shipping.EasyPost\\Nop.Plugin.Shipping.EasyPost.csproj",
+      "projectPath": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.Shipping.EasyPost\\Nop.Plugin.Shipping.EasyPost.csproj",
       "packagesPath": "C:\\Users\\BS825\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Plugins\\Nop.Plugin.Shipping.EasyPost\\obj\\",
+      "outputPath": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.Shipping.EasyPost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BS825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13594,8 +13594,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\nopCommerce_4.50.1_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "C:\\Projects\\practiseNop\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "C:\\Projects\\practiseNop\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }

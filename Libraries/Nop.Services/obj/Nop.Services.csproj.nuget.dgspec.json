@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {}
+    "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\Nop.Services.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+    "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
-        "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "packagesPath": "C:\\Users\\BS825\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\obj\\",
+        "outputPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BS825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+    "C:\\Projects\\practiseNop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\practiseNop\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
-        "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "packagesPath": "C:\\Users\\BS825\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Data\\obj\\",
+        "outputPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BS825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,8 +144,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj"
               }
             }
           }
@@ -208,14 +208,14 @@
         }
       }
     },
-    "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+    "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\Nop.Services.csproj": {
       "version": "4.5.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectUniqueName": "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
-        "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "packagesPath": "C:\\Users\\BS825\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\obj\\",
+        "outputPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BS825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,11 +232,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Projects\\practiseNop\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Data\\Nop.Data.csproj"
               }
             }
           }

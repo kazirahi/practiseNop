@@ -14611,11 +14611,11 @@
   "project": {
     "version": "4.5.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\nopCommerce_4.50.1_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj",
+      "projectUniqueName": "C:\\Projects\\practiseNop\\Tests\\Nop.Tests\\Nop.Tests.csproj",
       "projectName": "Nop.Tests",
-      "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj",
+      "projectPath": "C:\\Projects\\practiseNop\\Tests\\Nop.Tests\\Nop.Tests.csproj",
       "packagesPath": "C:\\Users\\BS825\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Tests\\Nop.Tests\\obj\\",
+      "outputPath": "C:\\Projects\\practiseNop\\Tests\\Nop.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BS825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -14632,17 +14632,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-              "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Core\\Nop.Core.csproj"
             },
-            "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-              "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Libraries\\Nop.Services\\Nop.Services.csproj"
+            "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+              "projectPath": "C:\\Projects\\practiseNop\\Libraries\\Nop.Services\\Nop.Services.csproj"
             },
-            "C:\\Projects\\nopCommerce_4.50.1_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-              "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            "C:\\Projects\\practiseNop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "C:\\Projects\\practiseNop\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
             },
-            "C:\\Projects\\nopCommerce_4.50.1_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "C:\\Projects\\practiseNop\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "C:\\Projects\\practiseNop\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }

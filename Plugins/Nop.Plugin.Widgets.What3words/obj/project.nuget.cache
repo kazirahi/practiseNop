@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iJ4aZI2S8VVlPGcuJ+oNct2ezWZ8Dg3RXzEDz1b3L5X5QPRrCHSE5mR/Q2APikR2susU8nIsIyBLEv84Igrclw==",
+  "dgSpecHash": "vp2CR5j2ImYMnpryMPA8lkg+8nSOKBgioTjPmQ+qTifajmXCuOo3qjiIHufsdyS2a/ZJxpEY02p9jgyF8H9VMQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\nopCommerce_4.50.1_Source\\Plugins\\Nop.Plugin.Widgets.What3words\\Nop.Plugin.Widgets.What3words.csproj",
+  "projectFilePath": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.Widgets.What3words\\Nop.Plugin.Widgets.What3words.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BS825\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\BS825\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
