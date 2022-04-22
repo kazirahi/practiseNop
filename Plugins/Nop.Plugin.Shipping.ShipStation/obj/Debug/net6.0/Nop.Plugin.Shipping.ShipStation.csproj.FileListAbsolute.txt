@@ -1,11 +1,11 @@
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\logo.png
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\plugin.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\Configure.cshtml
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\_ViewImports.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.runtimeconfig.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.staticwebassets.runtime.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Web.exe
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\logo.png
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\plugin.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\Configure.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Views\_ViewImports.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Plugin.Shipping.ShipStation.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Plugin.Shipping.ShipStation.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.ShipStation\Nop.Plugin.Shipping.ShipStation.pdb

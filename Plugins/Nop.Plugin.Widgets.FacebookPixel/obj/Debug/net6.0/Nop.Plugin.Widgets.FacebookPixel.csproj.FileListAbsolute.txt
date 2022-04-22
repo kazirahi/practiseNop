@@ -1,3 +1,7 @@
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.deps.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.runtimeconfig.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.staticwebassets.runtime.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\plugin.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\Configuration\Configure.cshtml
@@ -5,10 +9,6 @@ C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\Configuration\Edit.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\Configuration\_CreateOrUpdate.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Views\_ViewImports.cshtml
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.deps.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.runtimeconfig.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.staticwebassets.runtime.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Plugin.Widgets.FacebookPixel.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Plugin.Widgets.FacebookPixel.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.FacebookPixel\Nop.Plugin.Widgets.FacebookPixel.pdb

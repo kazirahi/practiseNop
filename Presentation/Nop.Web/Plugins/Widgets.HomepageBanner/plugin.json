@@ -1,0 +1,11 @@
+{
+  "Group": "Widgets",
+  "FriendlyName": "Homepage Banner",
+  "SystemName": "Widgets.HomepageBanner",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "Rahi for practice",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.HomepageBanner.dll",
+  "Description": "For practice plugin"
+}

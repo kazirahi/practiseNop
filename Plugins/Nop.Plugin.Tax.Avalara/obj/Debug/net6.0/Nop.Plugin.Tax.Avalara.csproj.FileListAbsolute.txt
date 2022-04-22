@@ -1,3 +1,7 @@
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.deps.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.runtimeconfig.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.staticwebassets.runtime.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\plugin.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Checkout\AppliedCertificate.cshtml
@@ -15,10 +19,6 @@ C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Product\_
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Product\_ExportItemsForm.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\Tax\Categories.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Views\_ViewImports.cshtml
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.deps.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.runtimeconfig.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.staticwebassets.runtime.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Plugin.Tax.Avalara.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Plugin.Tax.Avalara.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Tax.Avalara\Nop.Plugin.Tax.Avalara.pdb

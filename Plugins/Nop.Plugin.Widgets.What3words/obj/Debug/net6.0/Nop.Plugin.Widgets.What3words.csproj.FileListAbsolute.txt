@@ -1,3 +1,7 @@
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.deps.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.runtimeconfig.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.staticwebassets.runtime.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\plugin.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Views\AdminOrderAddress.cshtml
@@ -6,10 +10,6 @@ C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Views\Pu
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Views\PublicOrderAddress.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Views\_ViewImports.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Content\styles.css
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.deps.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.runtimeconfig.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.staticwebassets.runtime.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Plugin.Widgets.What3words.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Plugin.Widgets.What3words.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.What3words\Nop.Plugin.Widgets.What3words.pdb

@@ -1,0 +1,81 @@
+﻿@model Nop.Plugin.Widgets.HomepageBanner.Models.ConfigurationModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+<form asp-controller="WidgetsHomepageBanner" asp-action="Configure" method="post">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="cards-group">
+                <div class="card card-default">
+                    <div class="card-header">
+                        @T("Plugins.Widgets.Banner.BannerConfiguration")
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-override-store-checkbox asp-for="PictureId_OverrideForStore" asp-input="PictureId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                                <nop-label asp-for="PictureId" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="PictureId" />
+                                <span asp-validation-for="PictureId"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-override-store-checkbox asp-for="BannerName_OverrideForStore" asp-input="BannerName" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                                <nop-label asp-for="BannerName" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="BannerName" />
+                                <span asp-validation-for="BannerName"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-override-store-checkbox asp-for="BannerDescription_OverrideForStore" asp-input="BannerDescription" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                                <nop-label asp-for="BannerDescription" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="BannerDescription" />
+                                <span asp-validation-for="BannerDescription"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-override-store-checkbox asp-for="Link_OverrideForStore" asp-input="Link" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                                <nop-label asp-for="Link" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="Link" />
+                                <span asp-validation-for="Link"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-override-store-checkbox asp-for="LinkName_OverrideForStore" asp-input="LinkName" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                                <nop-label asp-for="LinkName" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="LinkName" />
+                                <span asp-validation-for="LinkName"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-default">
+                <div class="card-body">
+                    <div class="form-group row">
+                        <div class="col-md-9 offset-md-3">
+                            <button type="submit" name="save" class="btn btn-primary">@T("Admin.Common.Save")</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

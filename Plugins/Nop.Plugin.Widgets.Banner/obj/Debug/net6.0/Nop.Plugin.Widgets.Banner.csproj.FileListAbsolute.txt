@@ -1,8 +1,3 @@
-C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.csproj.AssemblyReference.cache
-C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.AssemblyInfoInputs.cache
-C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.AssemblyInfo.cs
-C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.csproj.CoreCompileInputs.cache
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Content\banner.css
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Content\widgetzones.xml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\logo.png
@@ -298,6 +293,11 @@ C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\refs\System.
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\refs\System.Xml.XPath.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\refs\System.Xml.XPath.XDocument.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\refs\WindowsBase.dll
+C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.csproj.AssemblyReference.cache
+C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.AssemblyInfoInputs.cache
+C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.AssemblyInfo.cs
+C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.csproj.CoreCompileInputs.cache
 C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.csproj.CopyComplete
 C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\Nop.Plugin.Widgets.Banner.dll
 C:\Projects\practiseNop\Plugins\Nop.Plugin.Widgets.Banner\obj\Debug\net6.0\refint\Nop.Plugin.Widgets.Banner.dll

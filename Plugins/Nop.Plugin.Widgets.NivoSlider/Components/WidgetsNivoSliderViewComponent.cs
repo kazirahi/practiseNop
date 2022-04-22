@@ -19,7 +19,7 @@ namespace Nop.Plugin.Widgets.NivoSlider.Components
         private readonly ISettingService _settingService;
         private readonly IPictureService _pictureService;
         private readonly IWebHelper _webHelper;
-
+         
         public WidgetsNivoSliderViewComponent(IStoreContext storeContext, 
             IStaticCacheManager staticCacheManager, 
             ISettingService settingService, 

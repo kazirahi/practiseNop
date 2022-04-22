@@ -1,3 +1,7 @@
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.deps.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.runtimeconfig.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.staticwebassets.runtime.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\plugin.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Views\Batch\Edit.cshtml
@@ -11,10 +15,6 @@ C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Views\Shi
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Views\Shipment\_ShipmentDetails.EasyPost.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Views\Shipment\ShipmentDetails.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Views\_ViewImports.cshtml
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.deps.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.runtimeconfig.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.staticwebassets.runtime.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Plugin.Shipping.EasyPost.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Plugin.Shipping.EasyPost.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Shipping.EasyPost\Nop.Plugin.Shipping.EasyPost.pdb

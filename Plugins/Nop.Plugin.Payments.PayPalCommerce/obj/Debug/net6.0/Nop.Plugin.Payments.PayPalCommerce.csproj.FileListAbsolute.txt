@@ -1,13 +1,13 @@
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.deps.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.runtimeconfig.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.staticwebassets.runtime.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\plugin.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Views\Configure.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Views\Buttons.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Views\PaymentInfo.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Views\_ViewImports.cshtml
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.deps.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.runtimeconfig.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.staticwebassets.runtime.json
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Web.exe
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Plugin.Payments.PayPalCommerce.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Plugin.Payments.PayPalCommerce.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Payments.PayPalCommerce\Nop.Plugin.Payments.PayPalCommerce.pdb

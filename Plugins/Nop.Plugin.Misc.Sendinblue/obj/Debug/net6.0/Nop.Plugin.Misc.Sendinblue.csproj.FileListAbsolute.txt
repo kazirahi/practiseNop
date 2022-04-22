@@ -1,3 +1,4 @@
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\SendinblueMarketingAutomation.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Content\styles.css
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\plugin.json
@@ -5,7 +6,6 @@ C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Views\Confi
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Views\PublicInfo.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Views\_ViewImports.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\RestSharp.dll
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\SendinblueMarketingAutomation.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Nop.Plugin.Misc.Sendinblue.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Nop.Plugin.Misc.Sendinblue.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Misc.Sendinblue\Nop.Plugin.Misc.Sendinblue.pdb

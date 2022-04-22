@@ -1,0 +1,13 @@
+﻿@model Nop.Plugin.Widgets.HomepageBanner.Models.PublicInfoModel
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/Plugins/Widgets.HomepageBanner/Content/homepagebanner.css" />
+<div class="col-12 mainDiv" style="background-image: url('@Model.PictureUrl'); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+    <div class="divCenter">
+        <h1>@Model.BannerName</h1>
+        <p>@Model.BannerDescription</p>
+        <a class="linkButton" href="@Model.Link">@Model.LinkName</a>
+    </div>
+</div>
+
