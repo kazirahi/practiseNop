@@ -18,7 +18,7 @@ namespace Nop.Plugin.Widgets.Banner
 {
     public class BannerPlugin : BasePlugin, IWidgetPlugin, IAdminMenuPlugin
     {
-        #region field
+        #region Fields
 
         private readonly ILocalizationService _localizationService;
         private readonly IPictureService _pictureService;
@@ -34,7 +34,7 @@ namespace Nop.Plugin.Widgets.Banner
         public BannerPlugin(ILocalizationService localizationService, IPictureService pictureService, ISettingService settingService, IWebHelper webHelper, INopFileProvider nopFileProvider, WidgetSettings widgetSettings)
         {
             _localizationService = localizationService;
-            _pictureService = pictureService;   
+            _pictureService = pictureService;
             _settingService = settingService;
             _webHelper = webHelper;
             _fileProvider = nopFileProvider;
@@ -62,27 +62,16 @@ namespace Nop.Plugin.Widgets.Banner
         /// Gets widget zones where this widget should be rendered
         /// </summary>
         /// <returns>widget zones</returns>
-        public async Task<IList<string>> GetWidgetZonesAsync()
+        public Task<IList<string>> GetWidgetZonesAsync()
         {
-            var list = new List<string>();
-            list.AddRange(await PluginDefaults.AllowedWidgetsZones());
-            list.Add(PluginDefaults.BannerFilters);
-            return list;
+            return Task.FromResult<IList<string>>(new List<string> { PublicWidgetZones.HomepageBeforeNews });
         }
 
         public async Task ManageSiteMapAsync(SiteMapNode rootNode)
         {
-            var mainMenuItem = new SiteMapNode()
-            {
-                SystemName = "WidgetsBanner",
-                Title = await _localizationService.GetResourceAsync("Plugins.Widgets.Banner"),
-                ControllerName = "",
-                ActionName = "",
-                IconClass = "fa fa-dot-circle-o",
-                Visible = true,
-                RouteValues = new RouteValueDictionary() { { "area", AreaNames.Admin} }
-            };
-
+            var bannerNode = rootNode.ChildNodes.FirstOrDefault(node => node.SystemName.Equals("Third party plugins"));
+            if (bannerNode is null)
+                return;
             var listMenus = new List<SiteMapNode>();
             var menuItem = new SiteMapNode();
             listMenus.Add(menuItem);
@@ -104,25 +93,19 @@ namespace Nop.Plugin.Widgets.Banner
                 SystemName = "WidgetsBannerList",
                 Title = await _localizationService.GetResourceAsync("Plugins.Widgets.Banner.BannerList"),
                 ControllerName = "WidgetsBanner",
-                ActionName = "Banner",
+                ActionName = "List",
                 IconClass = "fa fa-dot-circle-o",
                 Visible = true,
                 RouteValues = new RouteValueDictionary() { { "area", AreaNames.Admin } }
             };
             listMenus.Add(menuItem);
 
-            var pluginNode = rootNode.ChildNodes.FirstOrDefault(c => c.SystemName == mainMenuItem.SystemName);
-            if(pluginNode != null)
+            foreach (var item in listMenus)
             {
-                foreach(var item in listMenus)
-                    pluginNode.ChildNodes.Add(item);
+                bannerNode.ChildNodes.Add(item);
             }
-            else
-            {
-                foreach (var item in listMenus)
-                    menuItem.ChildNodes.Add(item);
-                rootNode.ChildNodes.Add(menuItem);
-            }
+
+
         }
 
         /// <summary>
@@ -140,21 +123,25 @@ namespace Nop.Plugin.Widgets.Banner
                 ["Plugins.Widgets.Banner.StoreId"] = "Store ID",
                 ["Plugins.Widgets.Banner.DisplayOrder"] = "Display Order",
                 ["Plugins.Widgets.Banner.Published"] = "Published",
+                ["Plugins.Widgets.Banner.AddNew"] = "Add New Banner",
 
                 ["Plugins.Widgets.Banner.Configure.HeaderName"] = "Header Name",
                 ["Plugins.Widgets.Banner.Configure.BannerWidth"] = "Banner Width",
                 ["Plugins.Widgets.Banner.Configure.BannerHeight"] = "Banner Height",
                 ["Plugins.Widgets.Banner.Configure.BannerListPageSize"] = "Banner List Page Size",
+                ["Plugins.Widgets.Banner.Configure.BannerInRow"] = "Banner In Row",
 
                 ["Plugins.Widgets.Banner.Configure.Hint.HeaderName"] = "Please Enter the Header Name",
                 ["Plugins.Widgets.Banner.Configure.Hint.BannerWidth"] = "Please Enter the Banner Width (in px)",
                 ["Plugins.Widgets.Banner.Configure.Hint.BannerHeight"] = "Please Enter the Banner Height (in px)",
                 ["Plugins.Widgets.Banner.Configure.Hint.BannerListPageSize"] = "Please Enter the Banner List Page Size",
+                ["Plugins.Widgets.Banner.Configure.Hint.BannerInRow"] = "Please Enter the Banner In Row",
 
                 ["Plugins.Widgets.Banner.Configure.Required.HeaderName"] = "Header Name is required***",
-                ["Plugins.Widgets.Banner.Configure.Required.BannerWidth"] = "Banner Width is required***",
+                ["Plugins.Widgets.Banner.Configure.Required.BannerWidth"] = "Banner Width is required between 1 to 1200px ***",
                 ["Plugins.Widgets.Banner.Configure.Required.BannerHeight"] = "Banner Height is required***",
                 ["Plugins.Widgets.Banner.Configure.Required.BannerListPageSize"] = "Banner List Page Size is required***",
+                ["Plugins.Widgets.Banner.Configure.Required.BannerInRow"] = "Banner In Row is required between 1 to 4***",
 
                 ["Plugins.Widgets.Banner.Field.Image"] = "Image",
                 ["Plugins.Widgets.Banner.Field.BannerName"] = "Banner Name",

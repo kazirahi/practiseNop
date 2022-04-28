@@ -1,7 +1,13 @@
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Content\banner.css
-C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Content\widgetzones.xml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\logo.png
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\plugin.json
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\Create.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\Edit.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\List.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\Configure.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\PublicInfo.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\_CreateOrUpdate.cshtml
+C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Views\_ViewImports.cshtml
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Nop.Plugin.Widgets.Banner.deps.json
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Nop.Plugin.Widgets.Banner.dll
 C:\Projects\practiseNop\Presentation\Nop.Web\Plugins\Widgets.Banner\Nop.Plugin.Widgets.Banner.pdb

@@ -13,10 +13,12 @@ namespace Nop.Plugin.Widgets.Banner.Data
         public override void MapEntity(CreateTableExpressionBuilder table)
         {
             table
-                .WithColumn(nameof(Domain.BannerConfigure.HeaderName)).AsString().NotNullable()
+                .WithColumn(nameof(Domain.BannerConfigure.HeaderName)).AsString(int.MaxValue).NotNullable()
                 .WithColumn(nameof(Domain.BannerConfigure.BannerWidth)).AsInt32().NotNullable()
                 .WithColumn(nameof(Domain.BannerConfigure.BannerHeight)).AsInt32().NotNullable()
-                .WithColumn(nameof(Domain.BannerConfigure.BannerListPageSize)).AsInt32().NotNullable();
+                .WithColumn(nameof(Domain.BannerConfigure.BannerListPageSize)).AsInt32().NotNullable()
+                .WithColumn(nameof(Domain.BannerConfigure.BannerInRow)).AsInt32().NotNullable();
+            ;
         }
     }
 }

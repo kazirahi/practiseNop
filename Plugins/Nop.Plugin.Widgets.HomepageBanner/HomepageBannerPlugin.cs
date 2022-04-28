@@ -48,7 +48,7 @@ namespace Nop.Plugin.Widgets.HomepageBanner
         /// <returns>return the widget zones</returns>
         public Task<IList<string>> GetWidgetZonesAsync()
         {
-            return Task.FromResult<IList<string>>(new List<string> { PublicWidgetZones.HomepageBeforeNews });
+            return Task.FromResult<IList<string>>(new List<string> { PublicWidgetZones.HomepageBeforePoll });
         }
 
         /// <summary>

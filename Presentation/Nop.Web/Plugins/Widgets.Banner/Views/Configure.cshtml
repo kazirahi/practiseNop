@@ -1,0 +1,81 @@
+﻿@model Nop.Plugin.Widgets.Banner.Models.BannerConfigureModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+<form asp-controller="WidgetsBanner" asp-action="Configure" method="post">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="cards-group">
+                <div class="card card-default">
+                    <div class="card-header">
+                        @T("Plugins.Widgets.Banner.BannerConfiguration")
+                    </div>
+                    <div class="card-body">
+
+                        <div asp-validation-summary="All"></div>
+                        <input asp-for="Id" type="hidden" />
+
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-label asp-for="HeaderName" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="HeaderName" placeholder="@T("Plugins.Widgets.Banner.Configure.Hint.HeaderName")" />
+                                <span asp-validation-for="HeaderName"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-label asp-for="BannerWidth" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="BannerWidth" placeholder="@T("Plugins.Widgets.Banner.Configure.Hint.BannerWidth")" />
+                                <span asp-validation-for="BannerWidth"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-label asp-for="BannerHeight" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="BannerHeight" placeholder="@T("Plugins.Widgets.Banner.Configure.Hint.BannerHeight")" />
+                                <span asp-validation-for="BannerHeight"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-label asp-for="BannerListPageSize" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="BannerListPageSize" placeholder="@T("Plugins.Widgets.Banner.Configure.Hint.BannerListPageSize")" />
+                                <span asp-validation-for="BannerListPageSize"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-3">
+                                <nop-label asp-for="BannerInRow" />
+                            </div>
+                            <div class="col-md-9">
+                                <nop-editor asp-for="BannerInRow" placeholder="@T("Plugins.Widgets.Banner.Configure.Hint.BannerInRow")" />
+                                <span asp-validation-for="BannerInRow"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card card-default">
+                <div class="card-body">
+                    <div class="form-group row">
+                        <div class="col-md-9 offset-md-3">
+                            <button type="submit" name="save" class="btn btn-primary">@T("Admin.Common.Save")</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

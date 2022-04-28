@@ -12,21 +12,29 @@ namespace Nop.Plugin.Widgets.Banner.Domain
     /// </summary>
     public partial class BannerConfigure : BaseEntity
     {
+        /// <summary>
+        /// Gets or sets the Header Name
+        /// </summary>
         public string HeaderName { get; set; }
 
         /// <summary>
-        /// Gets or sets the Banner Description
+        /// Gets or sets the Banner Width
         /// </summary>
         public int BannerWidth { get; set; }
 
         /// <summary>
-        /// Gets or sets the link
+        /// Gets or sets the Banner Height
         /// </summary>
         public int BannerHeight { get; set; }
 
         /// <summary>
-        /// Gets or sets the link name
+        /// Gets or sets the Banner list page size
         /// </summary>
         public int BannerListPageSize { get; set; }
+
+        /// <summary>
+        /// Gets or sets how many in row
+        /// </summary>
+        public int BannerInRow { get; set; }
     }
 }

@@ -182,7 +182,7 @@ namespace Nop.Plugin.Payments.PayPalStandard.Controllers
             {
                 values.TryGetValue("custom", out var orderNumber);
                 var orderNumberGuid = Guid.Empty;
-                try
+                try  
                 {
                     orderNumberGuid = new Guid(orderNumber);
                 }

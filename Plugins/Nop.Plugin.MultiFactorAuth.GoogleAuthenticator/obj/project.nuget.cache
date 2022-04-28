@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7wX3vknk7jlq7nhb1QYi8/XNTSiVyagfnKrMMazW2VA7Qhwhamx3AHxh6yO4GGx6oCrwXrQcZZQARr7D5p2RNg==",
+  "dgSpecHash": "gdclArus5K1DoXD3zZ2F8AdPrcM+PGMy5IBRvrM4wq5DRLvpW4TbYouMho1JnOVPVYfEi0duurwMXUlGawVOFQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.MultiFactorAuth.GoogleAuthenticator\\Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.csproj",
   "expectedPackageFiles": [

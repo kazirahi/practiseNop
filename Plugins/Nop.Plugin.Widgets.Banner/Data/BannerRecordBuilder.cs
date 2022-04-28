@@ -1,11 +1,6 @@
 ﻿using FluentMigrator.Builders.Create.Table;
 using Nop.Data.Mapping.Builders;
-using Nop.Plugin.Widgets.Banner.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Nop.Plugin.Widgets.Banner.Data
 {
@@ -18,13 +13,12 @@ namespace Nop.Plugin.Widgets.Banner.Data
         public override void MapEntity(CreateTableExpressionBuilder table)
         {
             table
-                .WithColumn(nameof(Domain.Banner.BannerName)).AsString().NotNullable()
-                .WithColumn(nameof(Domain.Banner.BannerDescription)).AsString().NotNullable()
-                .WithColumn(nameof(Domain.Banner.Link)).AsString().NotNullable()
-                .WithColumn(nameof(Domain.Banner.LinkName)).AsString().NotNullable()
+                .WithColumn(nameof(Domain.Banner.BannerName)).AsString(int.MaxValue).NotNullable()
+                .WithColumn(nameof(Domain.Banner.BannerDescription)).AsString(int.MaxValue).NotNullable()
+                .WithColumn(nameof(Domain.Banner.Link)).AsString(int.MaxValue).NotNullable()
+                .WithColumn(nameof(Domain.Banner.LinkName)).AsString(int.MaxValue).NotNullable()
                 .WithColumn(nameof(Domain.Banner.PictureId)).AsInt32().NotNullable()
                 .WithColumn(nameof(Domain.Banner.StoreId)).AsInt32().NotNullable()
-                .WithColumn(nameof(Domain.Banner.DisplayOrder)).AsInt32().NotNullable()
                 .WithColumn(nameof(Domain.Banner.DisplayOrder)).AsInt32().NotNullable()
                 .WithColumn(nameof(Domain.Banner.Published)).AsBoolean().NotNullable();
         }

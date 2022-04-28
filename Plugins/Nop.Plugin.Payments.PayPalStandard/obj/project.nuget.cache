@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sJCEEzcUMX74SPIfGBq5jo8t9J9Yo7J0t3gMATvRjv0B8GUh26IRKXuJeQFoHvy2UYk0eTql/4kFLlAMOtUDKw==",
+  "dgSpecHash": "8bUUal1smoee3hvsZpdHznGHoNTpYujcrWSKQ8yYkiI+wdiMDnHkdAaawEREsWxElrTx0+jdo2xoNMOcB5AKrA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.Payments.PayPalStandard\\Nop.Plugin.Payments.PayPalStandard.csproj",
   "expectedPackageFiles": [

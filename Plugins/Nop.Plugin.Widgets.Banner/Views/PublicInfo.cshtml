@@ -1,0 +1,53 @@
+﻿@model Nop.Plugin.Widgets.Banner.Models.BannerPublicInfoModel
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/Plugins/Widgets.Banner/Content/banner.css" />
+
+@{
+    var col = "";
+}
+@if (Model != null && Model.BannerModels.Count > 0)
+{
+
+    @if (Model.BannerConfigureModel.BannerInRow == 4)
+    {
+        col = "col-12 col-md-3";
+    }
+    else if (Model.BannerConfigureModel.BannerInRow == 3)
+    {
+        col = "col-12 col-md-4";
+    }
+    else if (Model.BannerConfigureModel.BannerInRow == 2)
+    {
+        col = "col-12 col-md-6";
+    }
+    else if (Model.BannerConfigureModel.BannerInRow == 1)
+    {
+        col = "col-12 col-md-12";
+    }
+    <div class="divMain">
+        <div class="headerBanner">
+            <h2>@Model.BannerConfigureModel.HeaderName</h2>
+        </div>
+        <div class="row">
+            @foreach (var item in Model.BannerModels)
+            {
+
+                <div class="@Html.Raw(col)">
+                    <div style="text-align: center">
+                        <div class="card" style=";width: @Html.Raw(@Model.BannerConfigureModel.BannerWidth==0 ? "100%" : @Model.BannerConfigureModel.BannerWidth+"px"); height: @Html.Raw(@Model.BannerConfigureModel.BannerHeight == 0 ? "100%" : @Model.BannerConfigureModel.BannerHeight+"px");">
+                            <img src="@item.PictureUrl" alt="Avatar" style="width: 100%; padding: 20px">
+                            <div class="">
+                                <h4><b>@item.BannerName</b></h4>
+                                <p>@item.BannerDescription</p>
+                                <a href="@item.Link" target="_blank">@item.LinkName</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2EDUZGEG9LSVtN8wEfeTlR2MaKPJV7i32UxvBhm8hx2VB+kQpD+ukBZvQnAxI4sEmSKAjTe6eD1QT/x9PPXWTA==",
+  "dgSpecHash": "nezVXRZQCsKWReNDPi0da/7pltFMGotJEBnYTKOJCEGbnikZPigabn/VjlCY3e/OBi+bE+esMMkvwLLya/kApg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\practiseNop\\Plugins\\Nop.Plugin.Shipping.FixedByWeightByTotal\\Nop.Plugin.Shipping.FixedByWeightByTotal.csproj",
   "expectedPackageFiles": [

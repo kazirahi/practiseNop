@@ -94,6 +94,10 @@
     {
       "SystemName": "Widgets.HomepageBanner",
       "Version": "1.0"
+    },
+    {
+      "SystemName": "Widgets.Banner",
+      "Version": "1.0"
     }
   ],
   "PluginNamesToUninstall": [],
